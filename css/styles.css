@@ -1,0 +1,301 @@
+img.logo{
+    width:60%;
+}
+
+div.home{
+    background-color: #dde6a8;
+}
+
+a.home{
+    z-index: 2;
+    position: relative;
+    top: 90vh;
+}
+
+video.home{
+    width: 100%;
+    margin-top: -12vh;
+    z-index: 1;
+}
+
+img#photo_enigme{
+    width: 100%;
+    display: none;
+}
+
+img#photo_cadenas{
+    width: 15%;
+
+    display: none;
+}
+
+div.row{
+    width: 100%;
+}
+
+div.profil{
+    margin-left: 5%;
+}
+
+div.profile{
+    margin-left: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a.profil{
+    color: #93bad8;
+}
+
+body.enigme{
+    background-color: #fbc387;
+}
+
+img.alphabet{
+    width: 50%;
+    position: relative;
+    top: 2vh;
+}
+/*
+div.jeu{
+    width: 100%;
+    margin-top: 10vh;
+}
+
+h1.accueil{
+    color: #dde6a8;
+}
+
+h2.monde{
+    color: #93bad8;
+}
+
+img.jeu{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+}
+
+div.enigme{
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+}
+
+a.plateau{
+    font-size: 150%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.ligne{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+input.width{
+    width: 50%;
+}
+
+p.top{
+    margin-top: 1vh;
+} */
+
+div#animation{
+    height: 100%;
+}
+
+video#enigme{
+    width: 100%;
+    margin-top: -10vh;
+}
+
+div#reponse{
+    display: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    background-color: #FFF;
+    border-radius: 5vh;
+    box-shadow: 1px 1px 12px #555;
+    z-index: 2;
+}
+
+p.enigme{
+    font-size: 200%;
+    color: #93bad8;
+    position: relative;
+    top: 10vh;
+}
+
+input.enigme{
+    width: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 15vh;
+}
+
+a.enigme{
+    position: relative;
+    top: 25vh;
+}
+
+p.enigmeb{
+    font-size: 150%;
+    color: #93bad8;
+    position: relative;
+    top: 5vh;
+}
+
+input.enigmeb{
+    width: 30vh;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 10vh;
+}
+
+a.enigmeb{
+    position: relative;
+    top: 15vh;
+}
+
+div#reponseb{
+    display: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55vh;
+    background-color: #FFF;
+    border-radius: 5vh;
+    box-shadow: 1px 1px 12px #555;
+    z-index: 2;
+}
+
+p.champignon{
+    font-size: 150%;
+    color: #93bad8;
+    position: relative;
+    top: 3vh;
+}
+
+img.champignon{
+    width: 13%;
+}
+
+a.champignon{
+    position: relative;
+    top: 10vh;
+}
+
+div.champignons{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 3vh;
+}
+
+div.bas{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 5vh;
+}
+
+div.haut{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2vh;
+}
+
+div.index{
+    position: relative;
+    left: 2vh;
+}
+
+button.index{
+    position: relative;
+    left: 2vh;
+}
+
+img.index{
+    width: 100%;
+}
+
+button.profil{
+    background-color: #93bad8;
+    border-color: #93bad8;
+    color: #FFFFFF;
+}
+
+/* iframe{
+    display: none;
+}
+
+.trio-textes{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+}
+*/
+div.cles{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: 3vh;
+}
+
+div.bascles{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 5vh;
+}
+
+div.hautcles{
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 2vh;
+}
+
+div#reponsefin{
+    display: none;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70vh;
+    background-color: #FFF;
+    border-radius: 5vh;
+    box-shadow: 1px 1px 12px #555;
+    z-index: 2;
+}
